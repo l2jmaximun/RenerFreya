@@ -1,0 +1,4 @@
+#The HexId to Auth into LoginServer
+#Tue Dec 19 17:40:15 BRST 2017
+HexID=46c3074b4d1ec573ebe99c7ea283a9ce
+ServerID=1
