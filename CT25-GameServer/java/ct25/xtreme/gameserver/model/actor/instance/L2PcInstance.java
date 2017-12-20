@@ -329,6 +329,7 @@ public final class L2PcInstance extends L2Playable
 	private static final String SELECT_CHAR_TRANSFORM = "SELECT transform_id FROM characters WHERE charId=?";
 	private static final String UPDATE_CHAR_TRANSFORM = "UPDATE characters SET transform_id=? WHERE charId=?";
 	
+	
 	public static final int REQUEST_TIMEOUT = 15;
 	public static final int STORE_PRIVATE_NONE = 0;
 	public static final int STORE_PRIVATE_SELL = 1;
@@ -5727,6 +5728,9 @@ public final class L2PcInstance extends L2Playable
 		if (target instanceof L2PcInstance
 				&& AntiFeedManager.getInstance().check(this, target))
 		{
+			 if (Config.GM_CAN_RECEIVE_PVP_PK_POINTS && isGM())
+				 return;
+				
 			// Add karma to attacker and increase its PK counter
 			setPvpKills(getPvpKills() + 1);
 			
@@ -5744,6 +5748,9 @@ public final class L2PcInstance extends L2Playable
 	 */
 	public void increasePkKillsAndKarma(L2Character target)
 	{
+		 if (Config.GM_CAN_RECEIVE_PVP_PK_POINTS && isGM())
+			 return;
+			
 		int baseKarma           = Config.KARMA_MIN_KARMA;
 		int newKarma            = baseKarma;
 		int karmaLimit          = Config.KARMA_MAX_KARMA;

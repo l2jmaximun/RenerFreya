@@ -629,6 +629,7 @@ public final class Config
 	public static String BLOCK_DATE_FORMAT;
 	public static String BLOCK_HOUR_FORMAT;
 	public static boolean ENABLE_BOTREPORT;
+	public static boolean GM_CAN_RECEIVE_PVP_PK_POINTS;
 	public static boolean BOT_DETECT;
 	public static int BOT_PUNISH;
 	public static boolean BYPASS_VALIDATION;
@@ -1865,6 +1866,7 @@ public final class Config
 					GM_SKILL_RESTRICTION = Boolean.parseBoolean(General.getProperty("GMSkillRestriction", "True"));
 					GM_TRADE_RESTRICTED_ITEMS = Boolean.parseBoolean(General.getProperty("GMTradeRestrictedItems", "False"));
 					GM_RESTART_FIGHTING = Boolean.parseBoolean(General.getProperty("GMRestartFighting", "True"));
+					GM_CAN_RECEIVE_PVP_PK_POINTS = Boolean.parseBoolean(General.getProperty("GMCanReceivePvPPKPoints", "True"));
 					GM_ANNOUNCER_NAME = Boolean.parseBoolean(General.getProperty("GMShowAnnouncerName", "False"));
 					GM_GIVE_SPECIAL_SKILLS = Boolean.parseBoolean(General.getProperty("GMGiveSpecialSkills", "False"));
 					GMAUDIT = Boolean.parseBoolean(General.getProperty("GMAudit", "False"));
