@@ -1,23 +1,23 @@
-2017.12.20 17:35:36,960	INFO	1	ct25.xtreme.Config	loading login config
-2017.12.20 17:35:37,263	INFO	1	ct25.xtreme.Config	Loading MMO.properties
-2017.12.20 17:35:37,336	INFO	10	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
-2017.12.20 17:35:37,606	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
-2017.12.20 17:35:37,940	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge13y9swkwzpdynym0d|5ccd43c2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge13y9swkwzpdynym0d|5ccd43c2, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/iphone, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
-2017.12.20 17:35:38,939	INFO	1	ct25.xtreme.loginserver.LoginController	Loading LoginController...
-2017.12.20 17:35:41,598	INFO	1	ct25.xtreme.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
-2017.12.20 17:35:43,627	INFO	1	ct25.xtreme.loginserver.LoginController	Stored 20 keys for Blowfish communication
-2017.12.20 17:35:43,663	INFO	1	ct25.xtreme.loginserver.GameServerTable	Loaded 127 server names
-2017.12.20 17:35:43,713	INFO	1	ct25.xtreme.loginserver.GameServerTable	Loaded 1 registered Game Servers
-2017.12.20 17:35:44,683	INFO	1	ct25.xtreme.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
-2017.12.20 17:35:44,688	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Loaded 2 IP Bans.
-2017.12.20 17:35:44,815	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Listening for GameServers on *:9014
-2017.12.20 17:35:44,818	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Telnet server is currently disabled.
-2017.12.20 17:35:44,821	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Login Server ready on *:2106
-2017.12.20 17:38:29,733	INFO	22	ct25.xtreme.loginserver.GameServerThread	Updated Gameserver [1] Bartz IP's:
-2017.12.20 17:38:29,741	INFO	22	ct25.xtreme.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
-2017.12.20 17:38:29,743	INFO	22	ct25.xtreme.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
-2017.12.20 17:38:29,746	INFO	22	ct25.xtreme.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
-2017.12.20 17:38:29,749	INFO	22	ct25.xtreme.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
-2017.12.20 17:38:29,752	INFO	22	ct25.xtreme.loginserver.GameServerThread	127.0.0.1/0.0.0.0/0
-2017.12.20 17:45:08,057	INFO	22	ct25.xtreme.loginserver.GameServerThread	GameServer [1] Bartz: Connection lost: Connection reset
-2017.12.20 17:45:08,119	INFO	22	ct25.xtreme.loginserver.GameServerThread	Server [1] Bartz is now set as disconnected
+2017.12.20 18:21:40,163	INFO	1	ct25.xtreme.Config	loading login config
+2017.12.20 18:21:40,412	INFO	1	ct25.xtreme.Config	Loading MMO.properties
+2017.12.20 18:21:40,506	INFO	10	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
+2017.12.20 18:21:41,069	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+2017.12.20 18:21:41,449	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge13y9swmk7s81x6rln|5ccd43c2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge13y9swmk7s81x6rln|5ccd43c2, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/iphone, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017.12.20 18:21:41,963	INFO	1	ct25.xtreme.loginserver.LoginController	Loading LoginController...
+2017.12.20 18:21:43,100	INFO	1	ct25.xtreme.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
+2017.12.20 18:21:43,911	INFO	1	ct25.xtreme.loginserver.LoginController	Stored 20 keys for Blowfish communication
+2017.12.20 18:21:43,942	INFO	1	ct25.xtreme.loginserver.GameServerTable	Loaded 127 server names
+2017.12.20 18:21:43,973	INFO	1	ct25.xtreme.loginserver.GameServerTable	Loaded 1 registered Game Servers
+2017.12.20 18:21:44,207	INFO	1	ct25.xtreme.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2017.12.20 18:21:44,207	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Loaded 2 IP Bans.
+2017.12.20 18:21:44,316	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Listening for GameServers on *:9014
+2017.12.20 18:21:44,316	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Telnet server is currently disabled.
+2017.12.20 18:21:44,348	INFO	1	ct25.xtreme.loginserver.L2LoginServer	Login Server ready on *:2106
+2017.12.20 18:25:51,846	INFO	22	ct25.xtreme.loginserver.GameServerThread	Updated Gameserver [1] Bartz IP's:
+2017.12.20 18:25:51,849	INFO	22	ct25.xtreme.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2017.12.20 18:25:51,850	INFO	22	ct25.xtreme.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
+2017.12.20 18:25:51,850	INFO	22	ct25.xtreme.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
+2017.12.20 18:25:51,851	INFO	22	ct25.xtreme.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
+2017.12.20 18:25:51,851	INFO	22	ct25.xtreme.loginserver.GameServerThread	127.0.0.1/0.0.0.0/0
+2017.12.20 18:30:28,097	INFO	22	ct25.xtreme.loginserver.GameServerThread	GameServer [1] Bartz: Connection lost: Connection reset
+2017.12.20 18:30:28,268	INFO	22	ct25.xtreme.loginserver.GameServerThread	Server [1] Bartz is now set as disconnected

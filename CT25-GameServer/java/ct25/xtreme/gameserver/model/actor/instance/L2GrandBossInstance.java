@@ -14,6 +14,12 @@
  */
 package ct25.xtreme.gameserver.model.actor.instance;
 
+import ct25.xtreme.Config;
+import ct25.xtreme.gameserver.Announcements;
+
+import ct25.xtreme.gameserver.network.serverpackets.Earthquake;
+import ct25.xtreme.gameserver.network.serverpackets.ExRedSky;
+
 import ct25.xtreme.gameserver.instancemanager.RaidBossPointsManager;
 import ct25.xtreme.gameserver.model.actor.L2Character;
 import ct25.xtreme.gameserver.model.actor.L2Summon;
@@ -75,6 +81,16 @@ public final class L2GrandBossInstance extends L2MonsterInstance
 		if (player != null)
 		{
 			broadcastPacket(SystemMessage.getSystemMessage(SystemMessageId.RAID_WAS_SUCCESSFUL));
+			
+			if ( Config.ANNOUNCEMENT_KILL_GRANDBOSS == 1 )
+				{				
+			    // RedSky and Earthquake and Announcement
+				            ExRedSky packet = new ExRedSky(10);
+				            Earthquake eq = new Earthquake(player.getX(), player.getY(), player.getZ(), 14, 3);
+				             Announcements _an = Announcements.getInstance();
+				            _an.announceToAll("GrandBoss " + super.getName() + " has been killed player " + player.getName() + " ! ");
+				}       
+				
 			if (player.getParty() != null)
 			{
 				for (L2PcInstance member : player.getParty().getPartyMembers())

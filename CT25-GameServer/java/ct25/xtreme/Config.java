@@ -652,6 +652,7 @@ public final class Config
 	public static int DUALBOX_CHECK_MAX_PLAYERS_PER_IP;
 	public static int DUALBOX_CHECK_MAX_OLYMPIAD_PARTICIPANTS_PER_IP; 
 	public static TIntIntHashMap DUALBOX_CHECK_WHITELIST;
+	public static int ANNOUNCEMENT_KILL_GRANDBOSS;
 	public static FloodProtectorConfig FLOOD_PROTECTOR_USE_ITEM;
 	public static FloodProtectorConfig FLOOD_PROTECTOR_ROLL_DICE;
 	public static FloodProtectorConfig FLOOD_PROTECTOR_FIREWORK;
@@ -3107,6 +3108,9 @@ public final class Config
 					
 					
 					L2JMOD_DEBUG_VOICE_COMMAND = Boolean.parseBoolean(L2JModSettings.getProperty("DebugVoiceCommand", "False"));
+					ANNOUNCEMENT_KILL_GRANDBOSS = Integer.parseInt(L2JModSettings.getProperty("AnnouncementKillGrandboss", "0"));
+					if (ANNOUNCEMENT_KILL_GRANDBOSS != 0 && +ANNOUNCEMENT_KILL_GRANDBOSS != 1)
+					 ANNOUNCEMENT_KILL_GRANDBOSS = 0;
 				}
 				catch (Exception e)
 				{
