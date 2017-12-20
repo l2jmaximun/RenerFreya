@@ -5734,6 +5734,13 @@ public final class L2PcInstance extends L2Playable
 			// Add karma to attacker and increase its PK counter
 			setPvpKills(getPvpKills() + 1);
 			
+			 //Custom PvP Reward
+			 if (Config.ENABLE_PVP_REWARD)
+			 {
+			 addItem("Loot", Config.PVP_REWARD_ITEM, Config.AMOUNT_PVP_REWARD, this, true);
+			 }
+			
+			
 			// Send a Server->Client UserInfo packet to attacker with its Karma and PK Counter
 			sendPacket(new UserInfo(this));
 			sendPacket(new ExBrExtraUserInfo(this));
@@ -5800,6 +5807,12 @@ public final class L2PcInstance extends L2Playable
 		if (target instanceof L2PcInstance
 				&& AntiFeedManager.getInstance().check(this, target))
 			setPkKills(getPkKills() + 1);
+		
+		//Custom Pk Reward
+		 if (Config.ENABLE_PK_REWARD)
+		 {
+		 addItem("Loot", Config.PK_REWARD_ITEM, Config.AMOUNT_PK_REWARD, this, true);
+		 }
 		
 		// Send a Server->Client UserInfo packet to attacker with its Karma and PK Counter
 		sendPacket(new UserInfo(this));

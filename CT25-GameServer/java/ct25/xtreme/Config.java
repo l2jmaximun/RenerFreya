@@ -859,6 +859,14 @@ public final class Config
 	public static int BUFFER_NPC_FEE_REMOVE[];
 	public static boolean BUFFER_NPC_REMOVE_AMOUNT;
 	
+	 public static boolean ENABLE_PVP_REWARD;
+	 public static int PVP_REWARD_ITEM;
+	 public static int AMOUNT_PVP_REWARD;
+	 public static boolean ENABLE_PK_REWARD;
+	 public static int PK_REWARD_ITEM;
+	 public static int AMOUNT_PK_REWARD;
+
+	
 	//--------------------------------------------------
 	// NPC Settings
 	//--------------------------------------------------
@@ -2614,6 +2622,13 @@ public final class Config
 					BANKING_SYSTEM_ENABLED = Boolean.parseBoolean(L2JModSettings.getProperty("BankingEnabled", "false"));
 					BANKING_SYSTEM_GOLDBARS = Integer.parseInt(L2JModSettings.getProperty("BankingGoldbarCount", "1"));
 					BANKING_SYSTEM_ADENA = Integer.parseInt(L2JModSettings.getProperty("BankingAdenaCount", "500000000"));
+					
+					ENABLE_PVP_REWARD = Boolean.parseBoolean(L2JModSettings.getProperty("EnablePvPReward", "False"));
+					PVP_REWARD_ITEM = Integer.parseInt(L2JModSettings.getProperty("PvPRewardItem", "6673"));
+					AMOUNT_PVP_REWARD = Integer.parseInt(L2JModSettings.getProperty("AmountPvPReward", "1"));
+					ENABLE_PK_REWARD = Boolean.parseBoolean(L2JModSettings.getProperty("EnablePkReward", "False"));
+					PK_REWARD_ITEM = Integer.parseInt(L2JModSettings.getProperty("PkRewardItem", "6673"));
+					AMOUNT_PK_REWARD = Integer.parseInt(L2JModSettings.getProperty("AmountPkReward", "1"));
 					
 					OFFLINE_TRADE_ENABLE = Boolean.parseBoolean(L2JModSettings.getProperty("OfflineTradeEnable", "false"));
 					OFFLINE_CRAFT_ENABLE = Boolean.parseBoolean(L2JModSettings.getProperty("OfflineCraftEnable", "false"));
