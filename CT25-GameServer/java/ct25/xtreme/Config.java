@@ -835,6 +835,7 @@ public final class Config
 	public static String ANNOUNCE_PK_MSG;
 	public static String ANNOUNCE_PVP_MSG;
 	public static boolean L2JMOD_CHAT_ADMIN;
+	public static int CUSTOM_SUBCLASS_LVL;
 	public static boolean L2JMOD_MULTILANG_ENABLE;
 	public static List<String> L2JMOD_MULTILANG_ALLOWED = new ArrayList<String>();
 	public static String L2JMOD_MULTILANG_DEFAULT;
@@ -3067,6 +3068,7 @@ public final class Config
 					UC_PARTY_LIMIT = Integer.parseInt(L2JModSettings.getProperty("PartyLimit", "7"));
 					
 					L2JMOD_CHAT_ADMIN = Boolean.parseBoolean(L2JModSettings.getProperty("ChatAdmin", "false"));
+					CUSTOM_SUBCLASS_LVL = Integer.parseInt(L2JModSettings.getProperty("CustomSubclassLvl", "40"));
 					
 					L2JMOD_MULTILANG_ENABLE = Boolean.parseBoolean(L2JModSettings.getProperty("MultiLangEnable", "false"));
 					String[] allowed = L2JModSettings.getProperty("MultiLangAllowed", "en").split(";");
@@ -3085,6 +3087,7 @@ public final class Config
 						if (!lang.isEmpty())
 							L2JMOD_MULTILANG_SM_ALLOWED.add(lang);
 					}
+					
 					
 					L2JMOD_DEBUG_VOICE_COMMAND = Boolean.parseBoolean(L2JModSettings.getProperty("DebugVoiceCommand", "False"));
 				}

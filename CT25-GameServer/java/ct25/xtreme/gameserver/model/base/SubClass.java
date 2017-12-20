@@ -28,9 +28,9 @@ public final class SubClass
 	private static final byte _maxLevel = Config.MAX_SUBCLASS_LEVEL < Experience.MAX_LEVEL ? Config.MAX_SUBCLASS_LEVEL : Experience.MAX_LEVEL - 1;
 	
 	private PlayerClass _class;
-	private long _exp = Experience.LEVEL[40];
+	private long _exp = Experience.LEVEL[Config.CUSTOM_SUBCLASS_LVL];
 	private int _sp = 0;
-	private byte _level = 40;
+	private byte _level = (byte)Config.CUSTOM_SUBCLASS_LVL;
 	private int _classIndex = 1;
 	
 	public SubClass(int classId, long exp, int sp, byte level, int classIndex)
