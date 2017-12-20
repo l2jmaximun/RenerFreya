@@ -703,6 +703,7 @@ public final class Config
 	public static int[] TVT_EVENT_PARTICIPATION_FEE = new int[2];
 	public static int TVT_EVENT_MIN_PLAYERS_IN_TEAMS;
 	public static int TVT_EVENT_MAX_PLAYERS_IN_TEAMS;
+	public static String TVT_EVENT_ON_KILL;
 	public static int TVT_EVENT_RESPAWN_TELEPORT_DELAY;
 	public static int TVT_EVENT_START_LEAVE_TELEPORT_DELAY;
 	public static String TVT_EVENT_TEAM_1_NAME;
@@ -2417,6 +2418,7 @@ public final class Config
 					TVT_EVENT_PARTICIPATION_TIME = Integer.parseInt(L2JModSettings.getProperty("TvTEventParticipationTime", "3600"));
 					TVT_EVENT_RUNNING_TIME = Integer.parseInt(L2JModSettings.getProperty("TvTEventRunningTime", "1800"));
 					TVT_EVENT_PARTICIPATION_NPC_ID = Integer.parseInt(L2JModSettings.getProperty("TvTEventParticipationNpcId", "0"));
+					TVT_EVENT_ON_KILL = L2JModSettings.getProperty("TvTEventOnKill", "pmteam");
 
 					L2JMOD_ALLOW_WEDDING = Boolean.parseBoolean(L2JModSettings.getProperty("AllowWedding", "False"));
 					L2JMOD_WEDDING_PRICE = Integer.parseInt(L2JModSettings.getProperty("WeddingPrice", "250000000"));

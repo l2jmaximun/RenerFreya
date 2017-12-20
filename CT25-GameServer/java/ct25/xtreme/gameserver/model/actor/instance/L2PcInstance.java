@@ -762,6 +762,10 @@ public final class L2PcInstance extends L2Playable
 	private int _fishy = 0;
 	private int _fishz = 0;
 	
+	 /** TvTEvent participants settings */
+	 private short points = 0;
+	 public String _originalTitle;
+	
 	private int[] _transformAllowedSkills = {};
 	private ScheduledFuture<?> _taskRentPet;
 	private ScheduledFuture<?> _taskWater;
@@ -15225,6 +15229,22 @@ public final class L2PcInstance extends L2Playable
 		// Maintain = 1
 		return 0;
 	}
+	
+	 public short getScore()
+	 {
+	  return points;
+	 }
+	
+	 public void increaseScore()
+	 {
+	  points++;
+	 }
+	
+	 public void clearPoints()
+	 {
+	  points = 0;
+	 }
+	
 	
 	public boolean onEvents()
 	{

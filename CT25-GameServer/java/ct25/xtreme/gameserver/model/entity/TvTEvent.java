@@ -23,6 +23,7 @@ import java.util.logging.Logger;
 import javolution.util.FastMap;
 
 import ct25.xtreme.Config;
+import ct25.xtreme.gameserver.ThreadPoolManager;
 import ct25.xtreme.gameserver.cache.HtmCache;
 import ct25.xtreme.gameserver.datatables.DoorTable;
 import ct25.xtreme.gameserver.datatables.ItemTable;
@@ -286,6 +287,13 @@ public class TvTEvent
 				{
 					// Teleporter implements Runnable and starts itself
 					new TvTEventTeleporter(playerInstance, team.getCoordinates(), false, false);
+						 if (Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("title") || Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("pmtitle"))
+							 {
+							  playerInstance._originalTitle = playerInstance.getTitle();
+							  playerInstance.setTitle("Kills: " + playerInstance.getScore());
+							  playerInstance.getAppearance().setVisibleTitle("Kills: " + playerInstance.getScore());
+							  playerInstance.broadcastTitleInfo();
+							 }
 				}
 			}
 		}
@@ -340,7 +348,7 @@ public class TvTEvent
 	private static void rewardTeam(TvTEventTeam team)
 	{
 		// Iterate over all participated player instances of the winning team
-		for (L2PcInstance playerInstance : team.getParticipatedPlayers().values())
+		for (final L2PcInstance playerInstance : team.getParticipatedPlayers().values())
 		{
 			// Check for nullpointer
 			if (playerInstance == null)
@@ -425,6 +433,20 @@ public class TvTEvent
 				if (playerInstance != null)
 				{
 					new TvTEventTeleporter(playerInstance, Config.TVT_EVENT_PARTICIPATION_NPC_COORDINATES, false, false);
+						 if (Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("title") || Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("pmtitle"))
+							 {
+							  ThreadPoolManager.getInstance().scheduleGeneral(new Runnable()
+							  {
+							   @Override
+							   public void run()
+							   {
+								playerInstance.setTitle(playerInstance._originalTitle);
+								playerInstance.getAppearance().setVisibleTitle(playerInstance._originalTitle);
+								playerInstance.broadcastTitleInfo();
+								playerInstance.clearPoints();
+							   }
+							  }, Config.TVT_EVENT_START_LEAVE_TELEPORT_DELAY * 1000);
+							 }
 				}
 			}
 		}
@@ -626,6 +648,12 @@ public class TvTEvent
 				playerInstance.setXYZInvisible(Config.TVT_EVENT_PARTICIPATION_NPC_COORDINATES[0] + Rnd.get(101)-50,
 						Config.TVT_EVENT_PARTICIPATION_NPC_COORDINATES[1] + Rnd.get(101)-50,
 						Config.TVT_EVENT_PARTICIPATION_NPC_COORDINATES[2]);
+			   if (Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("title") || Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("pmtitle"))
+				   {
+					playerInstance.setTitle(playerInstance._originalTitle);
+					playerInstance.getAppearance().setVisibleTitle(playerInstance._originalTitle);
+					playerInstance.broadcastTitleInfo();
+				   }
 		}
 	}
 	
@@ -890,15 +918,37 @@ public class TvTEvent
 			
 			killerTeam.increasePoints();
 			
-			CreatureSay cs = new CreatureSay(killerPlayerInstance.getObjectId(), Say2.TELL, killerPlayerInstance.getName(), "I have killed " + killedPlayerInstance.getName() + "!");
-			
-			for (L2PcInstance playerInstance : _teams[killerTeamId].getParticipatedPlayers().values())
+			if (Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("pmteam"))
 			{
-				if (playerInstance != null)
+					CreatureSay cs = new CreatureSay(killerPlayerInstance.getObjectId(), Say2.TELL, killerPlayerInstance.getName(), "I have killed " + killedPlayerInstance.getName() + "!");
+				 
+					for (L2PcInstance playerInstance : _teams[killerTeamId].getParticipatedPlayers().values())
 				{
-					playerInstance.sendPacket(cs);
+							 if (playerInstance != null)
+								  playerInstance.sendPacket(cs);
 				}
 			}
+			   else if (Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("title"))
+			   {
+					killerPlayerInstance.increaseScore();
+					killerPlayerInstance.setTitle("Kills: " + killerPlayerInstance.getScore());
+			        killerPlayerInstance.getAppearance().setVisibleTitle("Kills: " + killerPlayerInstance.getScore());
+					killerPlayerInstance.broadcastTitleInfo();
+				   }
+				   else if (Config.TVT_EVENT_ON_KILL.equalsIgnoreCase("pmtitle"))
+				   {
+					CreatureSay cs = new CreatureSay(killerPlayerInstance.getObjectId(), Say2.TELL, killerPlayerInstance.getName(), "I have killed " + killedPlayerInstance.getName() + "!");
+				  
+					for (L2PcInstance playerInstance : _teams[killerTeamId].getParticipatedPlayers().values())
+					{
+					 if (playerInstance != null)
+					  playerInstance.sendPacket(cs);
+					}
+					killerPlayerInstance.increaseScore();
+					killerPlayerInstance.setTitle("Kills: " + killerPlayerInstance.getScore());
+					killerPlayerInstance.getAppearance().setVisibleTitle("Kills: " + killerPlayerInstance.getScore());
+					killerPlayerInstance.broadcastTitleInfo();
+				   }
 		}
 	}
 	
