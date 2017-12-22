@@ -15,6 +15,7 @@
 package ct25.xtreme.gameserver.network.serverpackets;
 
 import ct25.xtreme.Config;
+import ct25.xtreme.extensions.VisualArmorController;
 import ct25.xtreme.gameserver.datatables.NpcTable;
 import ct25.xtreme.gameserver.instancemanager.CursedWeaponsManager;
 import ct25.xtreme.gameserver.instancemanager.TerritoryWarManager;
@@ -192,20 +193,20 @@ public final class UserInfo extends L2GameServerPacket
 		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_HEAD));
 		if (_airShipHelm == 0)
 		{
-			writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_RHAND));
-			writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_LHAND));
+			writeD(VisualArmorController.getRHAND(_activeChar) );
+			writeD(VisualArmorController.getLHAND(_activeChar) );
 		}
 		else
 		{
 			writeD(_airShipHelm);
 			writeD(0);
 		}
-		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_GLOVES));
-		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_CHEST));
-		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_LEGS));
-		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_FEET));
-		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_CLOAK));
-		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_RHAND));
+		writeD(VisualArmorController.getVirtualGloves(_activeChar));
+		writeD(VisualArmorController.getVirtualBody(_activeChar));
+		writeD(VisualArmorController.getVirtualPants(_activeChar));
+		writeD(VisualArmorController.getVirtualBoots(_activeChar));
+		writeD(VisualArmorController.getCloak(_activeChar) );
+		writeD(VisualArmorController.getRHAND(_activeChar) );
 		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_HAIR));
 		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_HAIR2));
 		writeD(_activeChar.getInventory().getPaperdollItemId(Inventory.PAPERDOLL_RBRACELET));

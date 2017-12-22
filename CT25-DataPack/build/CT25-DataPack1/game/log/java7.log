@@ -1,0 +1,537 @@
+2017.12.22 09:23:05,882	INFO	1	ct25.xtreme.Config	Loading GameServer Configuration Files...
+2017.12.22 09:23:06,178	INFO	1	ct25.xtreme.util.L2Properties	L2Properties: Missing property for key - DatapackRoot
+2017.12.22 09:23:06,210	INFO	1	ct25.xtreme.Config$IPConfigData	Network Config: ipconfig.xml exists using manual configuration...
+2017.12.22 09:23:06,849	INFO	1	ct25.xtreme.Config	Loaded 6 Filter Words.
+2017.12.22 09:23:06,865	INFO	1	ct25.xtreme.gameserver.GameServer	-----------------------------------------------------------------=[ Database ]
+2017.12.22 09:23:07,036	INFO	10	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
+2017.12.22 09:23:07,832	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+2017.12.22 09:23:08,191	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge13z9syy7bzb1v659rc|1996cd68, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge13z9syy7bzb1v659rc|1996cd68, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/iphone, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017.12.22 09:23:08,784	INFO	1	ct25.xtreme.gameserver.GameServer	Freya Server Version:    ${br.version}
+2017.12.22 09:23:08,799	INFO	1	ct25.xtreme.gameserver.GameServer	Freya Datapack Version:  ${br.version}
+2017.12.22 09:23:09,096	INFO	1	ct25.xtreme.gameserver.idfactory.IdFactory	Updated characters online status.
+2017.12.22 09:23:09,127	INFO	1	ct25.xtreme.gameserver.idfactory.IdFactory	Cleaned 0 expired timestamps from database.
+2017.12.22 09:23:09,158	INFO	1	ct25.xtreme.gameserver.idfactory.BitSetIDFactory	IDFactory: 102912 id's available.
+2017.12.22 09:23:09,158	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------------=[ Engines ]
+2017.12.22 09:23:09,252	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Initializing Script Engine Manager
+2017.12.22 09:23:10,141	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Script Engine: Oracle Nashorn 1.8.0_152 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+2017.12.22 09:23:17,941	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+2017.12.22 09:23:17,956	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Script Engine: java 1.8 - Language: java - Language Version: 1.8
+2017.12.22 09:23:18,034	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ World ]
+2017.12.22 09:23:18,050	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Initializing InstanceManager
+2017.12.22 09:23:18,066	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Loaded 146 instance names
+2017.12.22 09:23:18,097	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Multiverse Instance created
+2017.12.22 09:23:18,097	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Universe Instance created
+2017.12.22 09:23:18,150	INFO	1	ct25.xtreme.gameserver.model.L2World	L2World: (128 by 136) World Region Grid set up.
+2017.12.22 09:23:18,180	INFO	1	ct25.xtreme.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 11 variables.
+2017.12.22 09:23:18,183	INFO	1	ct25.xtreme.gameserver.GameServer	-------------------------------------------------------------------=[ Skills ]
+2017.12.22 09:23:18,201	INFO	1	ct25.xtreme.gameserver.datatables.EnchantGroupsTable	EnchantGroupsTable: Loaded 5 groups.
+2017.12.22 09:23:23,143	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 16690  Class Skills for 103 Class Skill Trees.
+2017.12.22 09:23:23,146	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 76 Sub-Class Skills.
+2017.12.22 09:23:23,149	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 77 Transfer Skills for 3 Transfer Skill Trees.
+2017.12.22 09:23:23,152	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 117 Fishing Skills, 0 Dwarven only Fishing Skills.
+2017.12.22 09:23:23,156	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 3 Collect Skills.
+2017.12.22 09:23:23,159	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 74 Pledge Skills, 44 for Pledge and 30 Residential.
+2017.12.22 09:23:23,162	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 18 Sub-Pledge Skills.
+2017.12.22 09:23:23,165	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 32 Transform Skills.
+2017.12.22 09:23:23,770	INFO	1	ct25.xtreme.gameserver.datatables.SummonSkillsTable	PetSkillsTable: Loaded 1815 skills.
+2017.12.22 09:23:23,775	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Items ]
+2017.12.22 09:23:25,689	INFO	1	ct25.xtreme.gameserver.datatables.ItemTable	Highest item id used:22172
+2017.12.22 09:23:25,713	INFO	1	ct25.xtreme.gameserver.datatables.SummonItemsData	SummonItemsData: Loaded 53 summon items templates.
+2017.12.22 09:23:25,743	INFO	1	ct25.xtreme.gameserver.datatables.EnchantHPBonusData	Enchant HP Bonus registered for 1892 items!
+2017.12.22 09:23:25,751	INFO	1	ct25.xtreme.gameserver.datatables.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2017.12.22 09:23:26,488	INFO	1	ct25.xtreme.gameserver.TradeController	TradeController: Loaded 680 Buylists.
+2017.12.22 09:23:26,945	INFO	1	ct25.xtreme.gameserver.datatables.MultiSell	MultiSell: Loaded 197 lists.
+2017.12.22 09:23:27,001	INFO	1	ct25.xtreme.gameserver.RecipeController	RecipeController: Loaded 1000 recipes.
+2017.12.22 09:23:27,011	INFO	1	ct25.xtreme.gameserver.datatables.ArmorSetsTable	ArmorSetsTable: Loaded 198 armor sets.
+2017.12.22 09:23:27,027	INFO	1	ct25.xtreme.gameserver.datatables.FishTable	FishTable: Loaded 270 Fishes.
+2017.12.22 09:23:27,030	INFO	1	ct25.xtreme.gameserver.GameServer	---------------------------------------------------------------=[ Characters ]
+2017.12.22 09:23:27,050	INFO	1	ct25.xtreme.gameserver.datatables.CharTemplateTable	CharTemplateTable: Loaded 103 Character Templates.
+2017.12.22 09:23:27,060	INFO	1	ct25.xtreme.gameserver.datatables.CharNameTable	CharNameTable: Loaded 3 char names.
+2017.12.22 09:23:27,070	INFO	1	ct25.xtreme.gameserver.datatables.LevelUpData	LevelUpData: Loaded 103 Character Level Up Templates.
+2017.12.22 09:23:27,078	INFO	1	ct25.xtreme.gameserver.datatables.AccessLevels	AccessLevels: Loaded 7 from database.
+2017.12.22 09:23:27,092	INFO	1	ct25.xtreme.gameserver.datatables.AdminCommandAccessRights	AdminCommandAccessRights: Loaded 478 from database.
+2017.12.22 09:23:27,101	INFO	1	ct25.xtreme.gameserver.instancemanager.RaidBossPointsManager	RaidBossPointsManager: Loaded 1 Characters Raid Points.
+2017.12.22 09:23:27,320	INFO	1	ct25.xtreme.gameserver.model.actor.instance.L2PetInstance	PetDataTable: Loaded 49 Pets.
+2017.12.22 09:23:27,327	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Clans ]
+2017.12.22 09:23:27,351	INFO	1	ct25.xtreme.gameserver.communitybbs.Manager.ForumsBBSManager	Loaded 4 forums. Last forum id used: 4
+2017.12.22 09:23:27,359	INFO	1	ct25.xtreme.gameserver.datatables.ClanTable	Restored 0 clans from the database.
+2017.12.22 09:23:27,365	INFO	1	ct25.xtreme.gameserver.instancemanager.ClanHallManager	Initializing ClanHallManager
+2017.12.22 09:23:27,375	INFO	1	ct25.xtreme.gameserver.instancemanager.AuctionManager	Initializing AuctionManager
+2017.12.22 09:23:27,526	INFO	1	ct25.xtreme.gameserver.instancemanager.AuctionManager	Loaded: 38 auction(s)
+2017.12.22 09:23:27,530	INFO	1	ct25.xtreme.gameserver.instancemanager.ClanHallManager	Loaded: 0 clan halls
+2017.12.22 09:23:27,533	INFO	1	ct25.xtreme.gameserver.instancemanager.ClanHallManager	Loaded: 44 free clan halls
+2017.12.22 09:23:27,536	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------------=[ Geodata ]
+2017.12.22 09:23:27,543	INFO	1	ct25.xtreme.gameserver.GeoData	Geodata Engine: Disabled.
+2017.12.22 09:23:27,545	INFO	1	ct25.xtreme.gameserver.GameServer	---------------------------------------------------------------------=[ NPCs ]
+2017.12.22 09:23:28,084	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NpcTable: (Re)Loaded 10088 NPC template(s).
+2017.12.22 09:23:28,567	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NpcTable: Loaded 517 Minions.
+2017.12.22 09:23:28,744	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NPC AI Data Table: Loaded 10088 AI Data.
+2017.12.22 09:23:28,816	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NPC Elementals Data Table: Loaded 10088 elementals Data.
+2017.12.22 09:23:28,821	INFO	1	ct25.xtreme.gameserver.datatables.SpawnTable	Initializing Walkers Routes Table.
+2017.12.22 09:23:28,834	INFO	1	ct25.xtreme.gameserver.datatables.SpawnTable	WalkerRoutesTable: Loaded 34 Npc Walker Routes.
+2017.12.22 09:23:28,839	INFO	1	ct25.xtreme.gameserver.instancemanager.WalkingManager	WalkingManager: Loading walking routes...
+2017.12.22 09:23:28,845	INFO	1	ct25.xtreme.gameserver.instancemanager.WalkingManager	WalkingManager: loaded 10 walking routes.
+2017.12.22 09:23:28,864	INFO	1	ct25.xtreme.gameserver.instancemanager.ZoneManager	Loading zones...
+2017.12.22 09:23:29,236	INFO	1	ct25.xtreme.gameserver.model.zone.L2ZoneType	L2CustomPvP: Unknown parameter - townId in zone: 5555
+2017.12.22 09:23:30,681	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	Initializing GrandBossManager
+2017.12.22 09:23:30,686	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2017.12.22 09:23:30,689	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2017.12.22 09:23:30,692	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2017.12.22 09:23:30,695	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29019) status is 0.
+2017.12.22 09:23:30,700	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 2.
+2017.12.22 09:23:30,708	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Baium is Thu Dec 28 04:04:14 BRST 2017.
+2017.12.22 09:23:30,710	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2017.12.22 09:23:30,712	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29066) status is 0.
+2017.12.22 09:23:30,715	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29067) status is 0.
+2017.12.22 09:23:30,718	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2017.12.22 09:23:30,721	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0.
+2017.12.22 09:23:30,724	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 10 Instances
+2017.12.22 09:23:32,051	CONFIG	1	ct25.xtreme.gameserver.instancemanager.ZoneManager	Caution: Zone (40001) from file: custom_town_zones.xml overrides previos definition.
+2017.12.22 09:23:42,121	INFO	1	ct25.xtreme.gameserver.instancemanager.ZoneManager	Done: loaded 26 zone classes and 2491 zones.
+2017.12.22 09:23:42,125	INFO	1	ct25.xtreme.gameserver.datatables.DoorTable	Searching clan halls doors:
+2017.12.22 09:23:42,650	INFO	1	ct25.xtreme.gameserver.datatables.DoorTable	DoorTable: Loaded 977 Door Templates for 19 regions.
+2017.12.22 09:23:42,718	INFO	1	ct25.xtreme.gameserver.datatables.StaticObjects	StaticObjects: Loaded 51 static object templates.
+2017.12.22 09:23:42,737	INFO	1	ct25.xtreme.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Disabled by config.
+2017.12.22 09:23:42,742	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManager	Initializing CastleManager
+2017.12.22 09:23:42,804	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManager	Loaded: 9 castles
+2017.12.22 09:23:42,809	INFO	1	ct25.xtreme.gameserver.instancemanager.FortManager	Initializing FortManager
+2017.12.22 09:23:46,293	INFO	1	ct25.xtreme.gameserver.datatables.SpawnTable	SpawnTable: Loaded 3506 Npc Spawn Locations.
+2017.12.22 09:23:46,578	INFO	1	ct25.xtreme.gameserver.instancemanager.FortManager	Loaded: 21 fortress
+2017.12.22 09:23:46,864	INFO	1	ct25.xtreme.gameserver.instancemanager.FortSiegeManager	Initializing FortSiegeManager
+2017.12.22 09:23:48,441	INFO	1	ct25.xtreme.gameserver.datatables.NpcBufferTable	NpcBufferSkillIdsTable: Loaded 1 buffers and 10 skills.
+2017.12.22 09:23:48,464	INFO	1	ct25.xtreme.gameserver.instancemanager.HellboundManager	HellboundManager: Loaded 582 npc spawn locations.
+2017.12.22 09:23:48,512	INFO	1	ct25.xtreme.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 188 Instances
+2017.12.22 09:23:48,520	INFO	1	ct25.xtreme.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2017.12.22 09:23:48,522	INFO	1	ct25.xtreme.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 0 night creatures
+2017.12.22 09:23:48,522	INFO	1	ct25.xtreme.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2017.12.22 09:23:48,538	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Initialized 17 Grand Boss Zones
+2017.12.22 09:23:48,538	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 20 Mysterious-Box spawns.
+2017.12.22 09:23:48,585	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Physical type monsters spawns.
+2017.12.22 09:23:48,616	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Magical type monsters spawns.
+2017.12.22 09:23:48,632	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 92 Church of duke monsters spawns.
+2017.12.22 09:23:48,647	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 68 Emperor's grave NPC spawns.
+2017.12.22 09:23:48,647	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Conquerors' Sepulcher Manager
+2017.12.22 09:23:48,647	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Emperors' Sepulcher Manager
+2017.12.22 09:23:48,647	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Great Sages' Sepulcher Manager
+2017.12.22 09:23:48,647	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Judges' Sepulcher Manager
+2017.12.22 09:23:48,665	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: Beginning in Attack time
+2017.12.22 09:23:48,671	INFO	20	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	Fri Dec 22 09:23:48 BRST 2017 Atk announce scheduled to 25.0 minute of this hour.
+2017.12.22 09:23:48,682	INFO	1	ct25.xtreme.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2017.12.22 09:23:48,716	INFO	1	ct25.xtreme.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2017.12.22 09:23:48,725	INFO	1	ct25.xtreme.gameserver.instancemanager.QuestManager	Initializing QuestManager
+2017.12.22 09:23:48,729	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Siege ]
+2017.12.22 09:23:48,738	INFO	1	ct25.xtreme.gameserver.datatables.SiegeScheduleData	SiegeScheduleData: Loaded: 2 siege schedulers.
+2017.12.22 09:23:48,753	INFO	1	ct25.xtreme.gameserver.instancemanager.SiegeManager	Initializing SiegeManager
+2017.12.22 09:23:48,791	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2017.12.22 09:23:48,793	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2017.12.22 09:23:48,796	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2017.12.22 09:23:48,800	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2017.12.22 09:23:48,808	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2017.12.22 09:23:48,811	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: Next period change set to Mon Dec 25 18:00:48 BRST 2017
+2017.12.22 09:23:48,815	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: Next period begins in 3 days, 8 hours and 36 mins.
+2017.12.22 09:23:48,824	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Gludio: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 09:23:48,828	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Dion: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 09:23:48,831	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Giran: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 09:23:48,834	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Oren: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 09:23:48,837	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Aden: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 09:23:48,840	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Innadril: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 09:23:48,843	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Goddard: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 09:23:48,846	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Rune: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 09:23:48,849	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Schuttgart: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 09:23:48,857	INFO	1	ct25.xtreme.gameserver.instancemanager.TerritoryWarManager	Initializing TerritoryWarManager
+2017.12.22 09:23:48,893	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Initializing CastleManorManager
+2017.12.22 09:23:48,900	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: Manor refresh updated
+2017.12.22 09:23:48,903	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: New Schedule for manor refresh @ Fri Dec 22 20:00:48 BRST 2017
+2017.12.22 09:23:48,906	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: Manor period approve updated
+2017.12.22 09:23:48,909	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: New Schedule for period approve @ Sat Dec 23 06:00:00 BRST 2017
+2017.12.22 09:23:48,913	INFO	1	ct25.xtreme.gameserver.instancemanager.MercTicketManager	Initializing MercTicketManager
+2017.12.22 09:23:48,918	INFO	1	ct25.xtreme.gameserver.instancemanager.MercTicketManager	Loaded: 0 Mercenary Tickets
+2017.12.22 09:23:48,943	INFO	1	ct25.xtreme.gameserver.model.L2Manor	L2Manor: Loaded 258 Seeds.
+2017.12.22 09:23:48,943	INFO	1	ct25.xtreme.gameserver.GameServer	-----------------------------------------------------------------=[ Olympiad ]
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Loading Olympiad System....
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: 14556 minutes until period ends
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 7380 minutes
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 8 hours and 37 mins.
+2017.12.22 09:23:48,959	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started : Fri Dec 22 18:00:48 BRST 2017
+2017.12.22 09:23:48,974	INFO	1	ct25.xtreme.gameserver.model.entity.Hero	Hero System: Loaded 0 Heroes.
+2017.12.22 09:23:48,974	INFO	1	ct25.xtreme.gameserver.model.entity.Hero	Hero System: Loaded 0 all time Heroes.
+2017.12.22 09:23:48,974	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Cache ]
+2017.12.22 09:23:48,990	INFO	1	ct25.xtreme.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache
+2017.12.22 09:23:48,990	INFO	1	ct25.xtreme.gameserver.cache.CrestCache	Cache[Crest]: 0,000MB on 0 files loaded. (Forget Time: 300s , Capacity: 50)
+2017.12.22 09:23:49,005	INFO	1	ct25.xtreme.gameserver.datatables.TeleportLocationTable	TeleportLocationTable: Loaded 950 Teleport Location Templates.
+2017.12.22 09:23:49,068	INFO	1	ct25.xtreme.gameserver.datatables.UIData	UIData: Loaded 4 keys 5 categories.
+2017.12.22 09:23:49,089	INFO	1	ct25.xtreme.gameserver.instancemanager.PetitionManager	Initializing PetitionManager
+2017.12.22 09:23:49,098	INFO	1	ct25.xtreme.gameserver.datatables.HennaTable	HennaTable: Loaded 180 Templates.
+2017.12.22 09:23:49,150	INFO	1	ct25.xtreme.gameserver.datatables.HennaTreeTable	HennaTreeTable: Loaded 8136 Henna Tree Templates.
+2017.12.22 09:23:49,156	INFO	1	ct25.xtreme.gameserver.datatables.HennaTable	Helper Buff Table: Loaded 17 Templates.
+2017.12.22 09:23:49,161	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	Initializing AugmentationData.
+2017.12.22 09:23:49,231	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 52 augmentation stats.
+2017.12.22 09:23:49,233	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 24 accessory augmentation stats.
+2017.12.22 09:23:49,235	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 0
+2017.12.22 09:23:49,238	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 1
+2017.12.22 09:23:49,240	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 2
+2017.12.22 09:23:49,245	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 3
+2017.12.22 09:23:49,248	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 4
+2017.12.22 09:23:49,252	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 5
+2017.12.22 09:23:49,256	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 6
+2017.12.22 09:23:49,259	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 7
+2017.12.22 09:23:49,262	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 8
+2017.12.22 09:23:49,264	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 9
+2017.12.22 09:23:49,270	INFO	1	ct25.xtreme.gameserver.instancemanager.CursedWeaponsManager	Initializing CursedWeaponsManager
+2017.12.22 09:23:49,301	INFO	1	ct25.xtreme.gameserver.instancemanager.CursedWeaponsManager	Loaded : 2 cursed weapon(s).
+2017.12.22 09:23:49,304	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------=[ Scheme Buffer ]
+2017.12.22 09:23:49,309	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSkillTable	ModsBufferSkill System: Initializing...
+2017.12.22 09:23:49,313	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSkillTable	ModsBufferSkill: Loaded 11 group(s) with a total of 149 skills.
+2017.12.22 09:23:49,337	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme System: Initializing...
+2017.12.22 09:23:49,341	WARNING	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Could not load Player: 
+2017.12.22 09:23:49,386	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Loaded 0 Scheme(s).
+2017.12.22 09:23:49,388	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Loaded 0 Content(s).
+2017.12.22 09:23:49,389	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------------=[ Scripts ]
+2017.12.22 09:23:49,400	INFO	1	ct25.xtreme.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2017.12.22 09:23:49,404	INFO	1	ct25.xtreme.gameserver.instancemanager.GraciaSeedsManager	GraciaSeedsManager: Initializing
+2017.12.22 09:23:49,407	INFO	1	ct25.xtreme.gameserver.instancemanager.GraciaSeedsManager	GraciaSeedsManager: Seed Of Destruction stage = 1
+2017.12.22 09:23:49,409	INFO	1	ct25.xtreme.gameserver.instancemanager.GraciaSeedsManager	GraciaSeedsManager: Seed Of Infinity stage = 1
+2017.12.22 09:23:49,415	INFO	1	ct25.xtreme.gameserver.GameServer	Loading Server Scripts
+2017.12.22 09:24:12,744	INFO	1	ai.zones.ForgeOfTheGods.TarBeetleSpawn	TarBeetleSpawn: Loaded 55 spawn zones.
+2017.12.22 09:24:14,637	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	SelMahumChefs: Loaded 11 chef groups.
+2017.12.22 09:24:14,934	INFO	1	ai.zones.SelMahum.SelMahumTrainingGrounds	SelMahumTrainingGrounds: Loaded 31 training camps.
+2017.12.22 09:24:23,992	WARNING	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Failed executing script: C:\Users\Rener\git\RenerFreya\CT25-DataPack\build\CT25-DataPack1\game\data\scripts\handlers\MasterHandler.java. See MasterHandler.java.error.log for details.
+2017.12.22 09:24:24,321	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Loaded: 47 trust point reward data
+2017.12.22 09:24:24,323	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Mode: levels 0-3
+2017.12.22 09:24:24,325	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Level: 0
+2017.12.22 09:24:24,327	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Trust: 0
+2017.12.22 09:24:24,330	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: State: locked
+2017.12.22 09:24:37,275	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	Next TerritoryWarTime: Sat Dec 16 20:00:00 BRST 2017
+2017.12.22 09:25:14,558	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	[EnhanceYourWeapon] Loaded 54 Soul Crystal data.
+2017.12.22 09:25:14,560	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	[EnhanceYourWeapon] Loaded 240 npc Leveling info data.
+2017.12.22 09:25:59,980	INFO	1	ct25.xtreme.gameserver.GameServer	Compiled Scripts Cache is disabled.
+2017.12.22 09:25:59,981	INFO	1	ct25.xtreme.gameserver.instancemanager.QuestManager	Loaded: 723 quests
+2017.12.22 09:25:59,981	INFO	1	ct25.xtreme.gameserver.instancemanager.TransformationManager	Loaded: 105 transformations.
+2017.12.22 09:25:59,983	INFO	1	ct25.xtreme.gameserver.ItemsAutoDestroy	Initializing ItemsAutoDestroy.
+2017.12.22 09:26:00,120	INFO	1	ct25.xtreme.gameserver.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2017.12.22 09:26:00,131	INFO	1	ct25.xtreme.gameserver.GameServer	AutoChatHandler: Loaded 32 handlers in total.
+2017.12.22 09:26:00,131	INFO	1	ct25.xtreme.gameserver.GameServer	AutoSpawnHandler: Loaded 131 handlers in total.
+2017.12.22 09:26:00,176	INFO	1	ct25.xtreme.gameserver.instancemanager.MailManager	Mail Manager: Successfully loaded 0 messages.
+2017.12.22 09:26:00,178	INFO	1	ct25.xtreme.gameserver.GameServer	IdFactory: Free ObjectID's remaining: 1879000104
+2017.12.22 09:26:00,180	INFO	1	ct25.xtreme.gameserver.model.entity.TvTManager	TvTEventEngine[TvTManager.TvTManager()]: Engine is disabled.
+2017.12.22 09:26:00,183	INFO	1	ct25.xtreme.gameserver.model.entity.event.DMManager	DMEventEngine[DMManager.DMManager()]: Engine is disabled.
+2017.12.22 09:26:00,185	INFO	1	ct25.xtreme.gameserver.model.entity.event.LMManager	LMEventEngine[LMManager.LMManager()]: Engine is disabled.
+2017.12.22 09:26:00,210	INFO	1	ct25.xtreme.gameserver.instancemanager.UndergroundColiseumManager	UndergroundColiseumManager: loaded 5 coliseum arenas
+2017.12.22 09:26:02,397	INFO	1	ct25.xtreme.gameserver.GameServer	GameServer Started, free memory 1673 Mb of 2026 Mb
+2017.12.22 09:26:02,444	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:02,452	INFO	1	ct25.xtreme.gameserver.network.communityserver.CommunityServerThread	CommunityServerThread: Deactivated by config.
+2017.12.22 09:26:02,709	INFO	1	ct25.xtreme.gameserver.GameServer	Maximum Numbers of Connected Players: 100
+2017.12.22 09:26:02,710	INFO	1	ct25.xtreme.gameserver.GameServer	Server Loaded in 173 seconds
+2017.12.22 09:26:02,730	INFO	1	ct25.xtreme.gameserver.taskmanager.AutoAnnounceTaskManager	AutoAnnoucements: Loaded 0 Auto Annoucement Data.
+2017.12.22 09:26:02,730	INFO	1	ct25.xtreme.gameserver.GameServer	Telnet server is currently disabled.
+2017.12.22 09:26:03,471	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:08,489	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:09,491	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:14,513	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:15,513	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:20,516	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:21,519	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:26,543	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:27,543	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:32,545	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:33,545	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:38,548	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:39,549	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:44,551	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:45,551	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:50,560	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:51,560	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:26:56,563	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:26:57,563	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:02,565	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:03,565	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:08,566	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:09,566	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:14,568	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:15,568	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:20,570	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:21,572	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:26,573	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:27,573	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:32,576	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:33,576	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:38,578	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:39,578	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:44,580	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:45,582	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:50,587	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:51,590	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:27:56,592	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:27:57,592	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:02,594	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:03,595	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:08,596	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:09,596	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:14,598	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:15,598	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:20,600	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:21,600	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:26,601	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:27,611	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:32,613	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:33,613	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:38,614	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:39,614	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:44,615	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:45,615	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:50,617	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:51,617	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:28:56,619	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:28:57,619	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:02,620	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:03,620	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:08,622	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:09,632	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:14,634	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:15,633	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:20,650	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:21,650	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:26,651	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:27,651	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:32,653	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:33,657	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:38,658	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:39,658	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:44,662	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:45,671	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:50,727	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:51,869	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:29:56,872	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:29:57,872	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:02,874	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:03,877	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:08,879	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:09,880	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:14,882	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:15,883	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:20,885	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:21,886	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:26,889	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:27,890	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:32,892	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:33,924	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:38,932	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:40,006	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:45,038	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:46,038	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:51,159	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:52,159	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:30:57,195	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:30:58,196	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:03,269	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:04,269	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:09,279	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:10,279	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:15,313	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:16,325	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:21,341	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:22,341	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:27,429	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:28,685	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:33,688	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:34,691	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:39,692	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:40,720	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:45,721	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:46,717	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:51,719	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:52,719	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:31:57,732	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:31:58,732	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:03,733	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:04,733	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:09,735	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:10,741	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:15,742	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:16,750	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:21,751	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:22,842	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:27,844	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:28,838	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:34,314	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:35,335	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:40,353	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:41,428	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:46,435	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:47,435	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:52,437	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:53,437	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:32:58,439	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:32:59,439	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:04,440	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:05,441	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:10,442	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:11,442	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:16,444	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:17,444	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:22,445	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:23,446	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:28,447	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:29,457	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:34,459	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:35,460	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:40,461	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:41,463	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:46,464	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:47,465	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:52,532	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:53,532	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:33:58,533	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:33:59,534	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:04,535	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:05,535	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:10,537	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:11,537	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:16,539	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:17,539	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:22,542	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:23,542	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:28,544	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:29,544	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:34,548	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:35,548	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:40,550	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:41,552	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:46,553	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:47,554	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:52,555	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:53,556	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:34:58,557	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:34:59,586	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:04,591	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:05,591	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:10,592	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:11,593	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:16,595	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:17,595	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:22,599	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:23,609	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:28,616	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:29,614	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:34,615	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:35,624	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:40,640	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:41,642	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:46,643	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:47,644	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:52,646	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:53,646	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:35:58,647	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:35:59,647	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:05,471	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:06,472	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:11,474	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:12,474	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:17,476	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:18,477	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:23,478	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:24,490	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:29,495	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:30,495	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:35,591	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:36,602	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:41,606	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:42,607	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:47,609	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:48,609	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:53,610	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:36:54,673	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:36:59,674	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:00,676	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:05,680	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:06,675	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:11,676	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:12,672	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:17,679	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:18,673	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:23,681	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:24,762	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:29,770	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:30,770	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:35,779	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:36,781	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:41,782	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:42,783	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:47,785	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:48,793	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:53,795	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:37:54,801	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:37:59,802	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:00,795	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:05,796	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:06,859	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:11,867	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:12,873	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:17,911	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:18,998	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:23,999	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:25,013	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:30,021	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:31,018	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:36,021	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:37,014	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:42,015	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:43,063	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:48,065	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:49,088	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:38:54,089	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:38:55,189	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:00,191	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:01,220	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:06,244	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:07,261	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:12,270	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:13,288	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:18,303	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:19,325	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:24,327	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:25,407	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:30,846	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:31,907	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:36,911	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:37,966	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:42,974	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:44,066	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:49,069	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:50,066	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:39:55,071	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:39:56,072	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:01,073	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:02,073	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:07,077	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:08,091	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:13,094	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:14,176	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:19,177	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:20,183	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:25,188	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:26,280	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:31,457	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:32,481	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:37,499	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:38,581	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:43,582	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:44,580	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:49,583	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:50,581	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:40:55,582	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:40:56,581	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:41:01,606	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:41:02,692	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:41:07,694	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:41:08,793	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:41:13,798	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:41:14,893	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:41:19,897	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:41:20,903	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:41:25,905	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:41:26,905	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 09:41:31,906	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 09:41:32,914	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect

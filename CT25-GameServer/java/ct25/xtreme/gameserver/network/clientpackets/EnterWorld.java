@@ -399,23 +399,15 @@ public class EnterWorld extends L2GameClientPacket
 		
 		sendPacket(SystemMessage.getSystemMessage(SystemMessageId.WELCOME_TO_LINEAGE));
 		
-			activeChar.sendMessage("This server uses BR Xtreme files, a project founded by Browser"
-				+ "and developed by the BR Xtreme Dev Team at brxtreme.forumexpress.org,"
-				+ "you can find our changelog and servers at www.l2jbrasil.com");
-			activeChar.sendMessage("BR Xtreme Developers:");
-			activeChar.sendMessage("Browser");
-			activeChar.sendMessage("BR Xtreme Technician Staff:");
-			activeChar.sendMessage("Browser");
+			activeChar.sendMessage("This server uses L2j Files,"
+				+ "and developed by the Maximun Project Team"
+				+ "");
+			activeChar.sendMessage("Maximun Project Developers:");
+			activeChar.sendMessage("Tchurk, Leto, Rener");
+			activeChar.sendMessage("");
+			activeChar.sendMessage("");
 		
-		if (Config.DISPLAY_SERVER_VERSION)
-		{
-			if (Config.SERVER_VERSION != null)
-				activeChar.sendMessage("GameServer Version: " + Config.SERVER_VERSION);
-			
-			if (Config.DATAPACK_VERSION != null)
-				activeChar.sendMessage("DataPack Version: " + Config.DATAPACK_VERSION);
-		}
-		activeChar.sendMessage("Copyright 2010-2014");
+		activeChar.sendMessage("Copyright 2017-2018");
 		
 		SevenSigns.getInstance().sendCurrentPeriodMsg(activeChar);
 		Announcements.getInstance().showAnnouncements(activeChar);

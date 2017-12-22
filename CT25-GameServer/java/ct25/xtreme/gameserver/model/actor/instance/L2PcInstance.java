@@ -37,6 +37,7 @@ import javolution.util.FastMap;
 import javolution.util.FastSet;
 import ct25.xtreme.Config;
 import ct25.xtreme.L2DatabaseFactory;
+import ct25.xtreme.extensions.VisualArmorModel;
 import ct25.xtreme.gameserver.Announcements;
 import ct25.xtreme.gameserver.GameTimeController;
 import ct25.xtreme.gameserver.GeoData;
@@ -287,6 +288,7 @@ import ct25.xtreme.util.Rnd;
  */
 public final class L2PcInstance extends L2Playable
 {
+	 public VisualArmorModel visualArmor;
 	// Character Skill SQL String Definitions:
 	private static final String RESTORE_SKILLS_FOR_CHAR = "SELECT skill_id,skill_level FROM character_skills WHERE charId=? AND class_index=?";
 	private static final String ADD_NEW_SKILL = "INSERT INTO character_skills (charId,skill_id,skill_level,class_index) VALUES (?,?,?,?)";
@@ -1259,6 +1261,7 @@ public final class L2PcInstance extends L2Playable
 		_radar = new L2Radar(this);
 		
 		startVitalityTask();
+		visualArmor = new VisualArmorModel(this);
 	}
 	
 	private L2PcInstance(int objectId)

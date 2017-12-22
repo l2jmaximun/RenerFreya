@@ -264,6 +264,7 @@ import handlers.voicedcommandhandlers.Hellbound;
 import handlers.voicedcommandhandlers.LMVoicedInfo;
 import handlers.voicedcommandhandlers.Lang;
 import handlers.voicedcommandhandlers.TvTVoicedInfo;
+import handlers.voicedcommandhandlers.VisualArmor;
 import handlers.voicedcommandhandlers.Wedding;
 import handlers.voicedcommandhandlers.stats;
 
@@ -569,6 +570,7 @@ public class MasterHandler
 		if (Config.HELLBOUND_STATUS)
 			VoicedCommandHandler.getInstance().registerVoicedCommandHandler(new Hellbound());
 		
+		 VoicedCommandHandler.getInstance().registerVoicedCommandHandler(new VisualArmor());
 		_log.config("Loaded " + VoicedCommandHandler.getInstance().size() + " VoicedHandlers");
 	}
 	

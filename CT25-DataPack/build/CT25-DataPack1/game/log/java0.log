@@ -1,0 +1,249 @@
+2017.12.22 11:01:56,967	INFO	1	ct25.xtreme.Config	Loading GameServer Configuration Files...
+2017.12.22 11:01:57,234	INFO	1	ct25.xtreme.util.L2Properties	L2Properties: Missing property for key - DatapackRoot
+2017.12.22 11:01:57,281	INFO	1	ct25.xtreme.Config$IPConfigData	Network Config: ipconfig.xml exists using manual configuration...
+2017.12.22 11:01:57,874	INFO	1	ct25.xtreme.Config	Loaded 6 Filter Words.
+2017.12.22 11:01:57,874	INFO	1	ct25.xtreme.gameserver.GameServer	-----------------------------------------------------------------=[ Database ]
+2017.12.22 11:01:58,014	INFO	10	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
+2017.12.22 11:01:58,831	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+2017.12.22 11:01:59,176	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge13z9sz1qgcvn7try3|1996cd68, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge13z9sz1qgcvn7try3|1996cd68, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/iphone, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017.12.22 11:01:59,820	INFO	1	ct25.xtreme.gameserver.GameServer	Freya Server Version:    ${br.version}
+2017.12.22 11:01:59,820	INFO	1	ct25.xtreme.gameserver.GameServer	Freya Datapack Version:  ${br.version}
+2017.12.22 11:01:59,992	INFO	1	ct25.xtreme.gameserver.idfactory.IdFactory	Updated characters online status.
+2017.12.22 11:02:00,038	INFO	1	ct25.xtreme.gameserver.idfactory.IdFactory	Cleaned 0 expired timestamps from database.
+2017.12.22 11:02:00,055	INFO	1	ct25.xtreme.gameserver.idfactory.BitSetIDFactory	IDFactory: 102912 id's available.
+2017.12.22 11:02:00,055	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------------=[ Engines ]
+2017.12.22 11:02:00,133	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Initializing Script Engine Manager
+2017.12.22 11:02:00,806	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Script Engine: Oracle Nashorn 1.8.0_152 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+2017.12.22 11:02:01,885	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+2017.12.22 11:02:01,901	INFO	1	ct25.xtreme.gameserver.scripting.L2ScriptEngineManager	Script Engine: java 1.8 - Language: java - Language Version: 1.8
+2017.12.22 11:02:01,994	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ World ]
+2017.12.22 11:02:02,010	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Initializing InstanceManager
+2017.12.22 11:02:02,026	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Loaded 146 instance names
+2017.12.22 11:02:02,041	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Multiverse Instance created
+2017.12.22 11:02:02,057	INFO	1	ct25.xtreme.gameserver.instancemanager.InstanceManager	Universe Instance created
+2017.12.22 11:02:02,113	INFO	1	ct25.xtreme.gameserver.model.L2World	L2World: (128 by 136) World Region Grid set up.
+2017.12.22 11:02:02,159	INFO	1	ct25.xtreme.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 11 variables.
+2017.12.22 11:02:02,161	INFO	1	ct25.xtreme.gameserver.GameServer	-------------------------------------------------------------------=[ Skills ]
+2017.12.22 11:02:02,212	INFO	1	ct25.xtreme.gameserver.datatables.EnchantGroupsTable	EnchantGroupsTable: Loaded 5 groups.
+2017.12.22 11:02:07,887	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 16690  Class Skills for 103 Class Skill Trees.
+2017.12.22 11:02:07,891	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 76 Sub-Class Skills.
+2017.12.22 11:02:07,893	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 77 Transfer Skills for 3 Transfer Skill Trees.
+2017.12.22 11:02:07,894	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 117 Fishing Skills, 0 Dwarven only Fishing Skills.
+2017.12.22 11:02:07,896	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 3 Collect Skills.
+2017.12.22 11:02:07,898	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 74 Pledge Skills, 44 for Pledge and 30 Residential.
+2017.12.22 11:02:07,899	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 18 Sub-Pledge Skills.
+2017.12.22 11:02:07,901	INFO	1	ct25.xtreme.gameserver.datatables.SkillTreesData	SkillTreesData: Loaded 32 Transform Skills.
+2017.12.22 11:02:08,512	INFO	1	ct25.xtreme.gameserver.datatables.SummonSkillsTable	PetSkillsTable: Loaded 1815 skills.
+2017.12.22 11:02:08,543	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Items ]
+2017.12.22 11:02:13,879	INFO	1	ct25.xtreme.gameserver.datatables.ItemTable	Highest item id used:22172
+2017.12.22 11:02:13,960	INFO	1	ct25.xtreme.gameserver.datatables.SummonItemsData	SummonItemsData: Loaded 53 summon items templates.
+2017.12.22 11:02:14,021	INFO	1	ct25.xtreme.gameserver.datatables.EnchantHPBonusData	Enchant HP Bonus registered for 1892 items!
+2017.12.22 11:02:14,048	INFO	1	ct25.xtreme.gameserver.datatables.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2017.12.22 11:02:15,007	INFO	1	ct25.xtreme.gameserver.TradeController	TradeController: Loaded 680 Buylists.
+2017.12.22 11:02:15,990	INFO	1	ct25.xtreme.gameserver.datatables.MultiSell	MultiSell: Loaded 197 lists.
+2017.12.22 11:02:16,072	INFO	1	ct25.xtreme.gameserver.RecipeController	RecipeController: Loaded 1000 recipes.
+2017.12.22 11:02:16,116	INFO	1	ct25.xtreme.gameserver.datatables.ArmorSetsTable	ArmorSetsTable: Loaded 198 armor sets.
+2017.12.22 11:02:16,146	INFO	1	ct25.xtreme.gameserver.datatables.FishTable	FishTable: Loaded 270 Fishes.
+2017.12.22 11:02:16,147	INFO	1	ct25.xtreme.gameserver.GameServer	---------------------------------------------------------------=[ Characters ]
+2017.12.22 11:02:16,234	INFO	1	ct25.xtreme.gameserver.datatables.CharTemplateTable	CharTemplateTable: Loaded 103 Character Templates.
+2017.12.22 11:02:16,250	INFO	1	ct25.xtreme.gameserver.datatables.CharNameTable	CharNameTable: Loaded 3 char names.
+2017.12.22 11:02:16,258	INFO	1	ct25.xtreme.gameserver.datatables.LevelUpData	LevelUpData: Loaded 103 Character Level Up Templates.
+2017.12.22 11:02:16,269	INFO	1	ct25.xtreme.gameserver.datatables.AccessLevels	AccessLevels: Loaded 7 from database.
+2017.12.22 11:02:16,296	INFO	1	ct25.xtreme.gameserver.datatables.AdminCommandAccessRights	AdminCommandAccessRights: Loaded 478 from database.
+2017.12.22 11:02:16,303	INFO	1	ct25.xtreme.gameserver.instancemanager.RaidBossPointsManager	RaidBossPointsManager: Loaded 1 Characters Raid Points.
+2017.12.22 11:02:16,536	INFO	1	ct25.xtreme.gameserver.model.actor.instance.L2PetInstance	PetDataTable: Loaded 49 Pets.
+2017.12.22 11:02:16,544	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Clans ]
+2017.12.22 11:02:16,577	INFO	1	ct25.xtreme.gameserver.communitybbs.Manager.ForumsBBSManager	Loaded 4 forums. Last forum id used: 4
+2017.12.22 11:02:16,583	INFO	1	ct25.xtreme.gameserver.datatables.ClanTable	Restored 0 clans from the database.
+2017.12.22 11:02:16,583	INFO	1	ct25.xtreme.gameserver.instancemanager.ClanHallManager	Initializing ClanHallManager
+2017.12.22 11:02:16,608	INFO	1	ct25.xtreme.gameserver.instancemanager.AuctionManager	Initializing AuctionManager
+2017.12.22 11:02:16,754	INFO	1	ct25.xtreme.gameserver.instancemanager.AuctionManager	Loaded: 38 auction(s)
+2017.12.22 11:02:16,758	INFO	1	ct25.xtreme.gameserver.instancemanager.ClanHallManager	Loaded: 0 clan halls
+2017.12.22 11:02:16,762	INFO	1	ct25.xtreme.gameserver.instancemanager.ClanHallManager	Loaded: 44 free clan halls
+2017.12.22 11:02:16,767	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------------=[ Geodata ]
+2017.12.22 11:02:16,775	INFO	1	ct25.xtreme.gameserver.GeoData	Geodata Engine: Disabled.
+2017.12.22 11:02:16,777	INFO	1	ct25.xtreme.gameserver.GameServer	---------------------------------------------------------------------=[ NPCs ]
+2017.12.22 11:02:17,413	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NpcTable: (Re)Loaded 10088 NPC template(s).
+2017.12.22 11:02:18,248	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NpcTable: Loaded 517 Minions.
+2017.12.22 11:02:18,423	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NPC AI Data Table: Loaded 10088 AI Data.
+2017.12.22 11:02:18,528	INFO	1	ct25.xtreme.gameserver.datatables.NpcTable	NPC Elementals Data Table: Loaded 10088 elementals Data.
+2017.12.22 11:02:18,546	INFO	1	ct25.xtreme.gameserver.datatables.SpawnTable	Initializing Walkers Routes Table.
+2017.12.22 11:02:18,566	INFO	1	ct25.xtreme.gameserver.datatables.SpawnTable	WalkerRoutesTable: Loaded 34 Npc Walker Routes.
+2017.12.22 11:02:18,571	INFO	1	ct25.xtreme.gameserver.instancemanager.WalkingManager	WalkingManager: Loading walking routes...
+2017.12.22 11:02:18,585	INFO	1	ct25.xtreme.gameserver.instancemanager.WalkingManager	WalkingManager: loaded 10 walking routes.
+2017.12.22 11:02:18,594	INFO	1	ct25.xtreme.gameserver.instancemanager.ZoneManager	Loading zones...
+2017.12.22 11:02:19,042	INFO	1	ct25.xtreme.gameserver.model.zone.L2ZoneType	L2CustomPvP: Unknown parameter - townId in zone: 5555
+2017.12.22 11:02:19,915	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	Initializing GrandBossManager
+2017.12.22 11:02:19,918	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2017.12.22 11:02:19,921	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2017.12.22 11:02:19,922	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2017.12.22 11:02:19,924	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29019) status is 0.
+2017.12.22 11:02:19,926	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 2.
+2017.12.22 11:02:19,944	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Baium is Thu Dec 28 04:04:14 BRST 2017.
+2017.12.22 11:02:19,946	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2017.12.22 11:02:19,948	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29066) status is 0.
+2017.12.22 11:02:19,950	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29067) status is 0.
+2017.12.22 11:02:19,951	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2017.12.22 11:02:19,955	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0.
+2017.12.22 11:02:19,957	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 10 Instances
+2017.12.22 11:02:21,221	CONFIG	1	ct25.xtreme.gameserver.instancemanager.ZoneManager	Caution: Zone (40001) from file: custom_town_zones.xml overrides previos definition.
+2017.12.22 11:02:31,440	INFO	1	ct25.xtreme.gameserver.instancemanager.ZoneManager	Done: loaded 26 zone classes and 2491 zones.
+2017.12.22 11:02:31,443	INFO	1	ct25.xtreme.gameserver.datatables.DoorTable	Searching clan halls doors:
+2017.12.22 11:02:31,634	INFO	1	ct25.xtreme.gameserver.datatables.DoorTable	DoorTable: Loaded 977 Door Templates for 19 regions.
+2017.12.22 11:02:31,727	INFO	1	ct25.xtreme.gameserver.datatables.StaticObjects	StaticObjects: Loaded 51 static object templates.
+2017.12.22 11:02:31,730	INFO	1	ct25.xtreme.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Disabled by config.
+2017.12.22 11:02:31,732	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManager	Initializing CastleManager
+2017.12.22 11:02:31,825	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManager	Loaded: 9 castles
+2017.12.22 11:02:31,829	INFO	1	ct25.xtreme.gameserver.instancemanager.FortManager	Initializing FortManager
+2017.12.22 11:02:34,640	INFO	1	ct25.xtreme.gameserver.datatables.SpawnTable	SpawnTable: Loaded 3506 Npc Spawn Locations.
+2017.12.22 11:02:34,930	INFO	1	ct25.xtreme.gameserver.instancemanager.FortManager	Loaded: 21 fortress
+2017.12.22 11:02:35,121	INFO	1	ct25.xtreme.gameserver.instancemanager.FortSiegeManager	Initializing FortSiegeManager
+2017.12.22 11:02:36,031	INFO	1	ct25.xtreme.gameserver.datatables.NpcBufferTable	NpcBufferSkillIdsTable: Loaded 1 buffers and 10 skills.
+2017.12.22 11:02:36,097	INFO	1	ct25.xtreme.gameserver.instancemanager.HellboundManager	HellboundManager: Loaded 582 npc spawn locations.
+2017.12.22 11:02:36,175	INFO	1	ct25.xtreme.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 188 Instances
+2017.12.22 11:02:36,175	INFO	1	ct25.xtreme.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2017.12.22 11:02:36,175	INFO	1	ct25.xtreme.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 0 night creatures
+2017.12.22 11:02:37,095	INFO	1	ct25.xtreme.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2017.12.22 11:02:37,095	INFO	1	ct25.xtreme.gameserver.instancemanager.GrandBossManager	GrandBossManager: Initialized 17 Grand Boss Zones
+2017.12.22 11:02:37,160	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 20 Mysterious-Box spawns.
+2017.12.22 11:02:37,199	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Physical type monsters spawns.
+2017.12.22 11:02:37,274	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Magical type monsters spawns.
+2017.12.22 11:02:37,287	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 92 Church of duke monsters spawns.
+2017.12.22 11:02:37,299	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 68 Emperor's grave NPC spawns.
+2017.12.22 11:02:37,302	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Conquerors' Sepulcher Manager
+2017.12.22 11:02:37,303	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Emperors' Sepulcher Manager
+2017.12.22 11:02:37,305	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Great Sages' Sepulcher Manager
+2017.12.22 11:02:37,307	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Judges' Sepulcher Manager
+2017.12.22 11:02:37,310	INFO	1	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: Beginning in Attack time
+2017.12.22 11:02:37,312	INFO	30	ct25.xtreme.gameserver.instancemanager.FourSepulchersManager	Fri Dec 22 11:02:37 BRST 2017 Atk announce scheduled to 5.0 minute of this hour.
+2017.12.22 11:02:37,406	INFO	1	ct25.xtreme.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2017.12.22 11:02:37,434	INFO	1	ct25.xtreme.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2017.12.22 11:02:37,458	INFO	1	ct25.xtreme.gameserver.instancemanager.QuestManager	Initializing QuestManager
+2017.12.22 11:02:37,472	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Siege ]
+2017.12.22 11:02:37,490	INFO	1	ct25.xtreme.gameserver.datatables.SiegeScheduleData	SiegeScheduleData: Loaded: 2 siege schedulers.
+2017.12.22 11:02:37,495	INFO	1	ct25.xtreme.gameserver.instancemanager.SiegeManager	Initializing SiegeManager
+2017.12.22 11:02:37,536	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2017.12.22 11:02:37,537	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2017.12.22 11:02:37,541	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2017.12.22 11:02:37,544	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2017.12.22 11:02:37,553	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2017.12.22 11:02:37,555	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: Next period change set to Mon Dec 25 18:00:37 BRST 2017
+2017.12.22 11:02:37,560	INFO	1	ct25.xtreme.gameserver.SevenSigns	SevenSigns: Next period begins in 3 days, 6 hours and 57 mins.
+2017.12.22 11:02:37,562	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Gludio: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 11:02:37,566	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Dion: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 11:02:37,569	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Giran: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 11:02:37,571	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Oren: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 11:02:37,574	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Aden: Sun Dec 31 16:00:00 BRST 2017
+2017.12.22 11:02:37,577	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Innadril: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 11:02:37,578	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Goddard: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 11:02:37,580	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Rune: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 11:02:37,583	INFO	1	ct25.xtreme.gameserver.model.entity.Siege	Siege of Schuttgart: Sun Dec 31 20:00:00 BRST 2017
+2017.12.22 11:02:37,593	INFO	1	ct25.xtreme.gameserver.instancemanager.TerritoryWarManager	Initializing TerritoryWarManager
+2017.12.22 11:02:37,640	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Initializing CastleManorManager
+2017.12.22 11:02:37,651	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: Manor refresh updated
+2017.12.22 11:02:37,654	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: New Schedule for manor refresh @ Fri Dec 22 20:00:37 BRST 2017
+2017.12.22 11:02:37,656	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: Manor period approve updated
+2017.12.22 11:02:37,658	INFO	1	ct25.xtreme.gameserver.instancemanager.CastleManorManager	Manor System: New Schedule for period approve @ Sat Dec 23 06:00:00 BRST 2017
+2017.12.22 11:02:37,661	INFO	1	ct25.xtreme.gameserver.instancemanager.MercTicketManager	Initializing MercTicketManager
+2017.12.22 11:02:37,713	INFO	1	ct25.xtreme.gameserver.instancemanager.MercTicketManager	Loaded: 0 Mercenary Tickets
+2017.12.22 11:02:37,739	INFO	1	ct25.xtreme.gameserver.model.L2Manor	L2Manor: Loaded 258 Seeds.
+2017.12.22 11:02:37,740	INFO	1	ct25.xtreme.gameserver.GameServer	-----------------------------------------------------------------=[ Olympiad ]
+2017.12.22 11:02:37,748	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Loading Olympiad System....
+2017.12.22 11:02:37,748	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2017.12.22 11:02:37,748	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: 14457 minutes until period ends
+2017.12.22 11:02:37,748	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 7281 minutes
+2017.12.22 11:02:37,748	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2017.12.22 11:02:37,763	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 6 hours and 57 mins.
+2017.12.22 11:02:37,763	INFO	1	ct25.xtreme.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started : Fri Dec 22 18:00:37 BRST 2017
+2017.12.22 11:02:37,763	INFO	1	ct25.xtreme.gameserver.model.entity.Hero	Hero System: Loaded 0 Heroes.
+2017.12.22 11:02:37,763	INFO	1	ct25.xtreme.gameserver.model.entity.Hero	Hero System: Loaded 0 all time Heroes.
+2017.12.22 11:02:37,763	INFO	1	ct25.xtreme.gameserver.GameServer	--------------------------------------------------------------------=[ Cache ]
+2017.12.22 11:02:37,779	INFO	1	ct25.xtreme.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache
+2017.12.22 11:02:37,779	INFO	1	ct25.xtreme.gameserver.cache.CrestCache	Cache[Crest]: 0,000MB on 0 files loaded. (Forget Time: 300s , Capacity: 50)
+2017.12.22 11:02:37,826	INFO	1	ct25.xtreme.gameserver.datatables.TeleportLocationTable	TeleportLocationTable: Loaded 950 Teleport Location Templates.
+2017.12.22 11:02:37,903	INFO	1	ct25.xtreme.gameserver.datatables.UIData	UIData: Loaded 4 keys 5 categories.
+2017.12.22 11:02:37,920	INFO	1	ct25.xtreme.gameserver.instancemanager.PetitionManager	Initializing PetitionManager
+2017.12.22 11:02:37,941	INFO	1	ct25.xtreme.gameserver.datatables.HennaTable	HennaTable: Loaded 180 Templates.
+2017.12.22 11:02:38,042	INFO	1	ct25.xtreme.gameserver.datatables.HennaTreeTable	HennaTreeTable: Loaded 8136 Henna Tree Templates.
+2017.12.22 11:02:38,050	INFO	1	ct25.xtreme.gameserver.datatables.HennaTable	Helper Buff Table: Loaded 17 Templates.
+2017.12.22 11:02:38,054	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	Initializing AugmentationData.
+2017.12.22 11:02:38,155	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 52 augmentation stats.
+2017.12.22 11:02:38,155	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 24 accessory augmentation stats.
+2017.12.22 11:02:38,156	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 0
+2017.12.22 11:02:38,157	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 1
+2017.12.22 11:02:38,158	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 2
+2017.12.22 11:02:38,160	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 3
+2017.12.22 11:02:38,161	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 4
+2017.12.22 11:02:38,162	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 5
+2017.12.22 11:02:38,163	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 6
+2017.12.22 11:02:38,164	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 7
+2017.12.22 11:02:38,165	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 8
+2017.12.22 11:02:38,167	INFO	1	ct25.xtreme.gameserver.datatables.AugmentationData	AugmentationData: Loaded: 17 blue, 107 purple and 54 red skills for lifeStoneLevel 9
+2017.12.22 11:02:38,171	INFO	1	ct25.xtreme.gameserver.instancemanager.CursedWeaponsManager	Initializing CursedWeaponsManager
+2017.12.22 11:02:38,195	INFO	1	ct25.xtreme.gameserver.instancemanager.CursedWeaponsManager	Loaded : 2 cursed weapon(s).
+2017.12.22 11:02:38,197	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------=[ Scheme Buffer ]
+2017.12.22 11:02:38,202	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSkillTable	ModsBufferSkill System: Initializing...
+2017.12.22 11:02:38,204	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSkillTable	ModsBufferSkill: Loaded 11 group(s) with a total of 149 skills.
+2017.12.22 11:02:38,227	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme System: Initializing...
+2017.12.22 11:02:38,229	WARNING	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Could not load Player: 
+2017.12.22 11:02:38,264	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Loaded 0 Scheme(s).
+2017.12.22 11:02:38,266	INFO	1	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Loaded 0 Content(s).
+2017.12.22 11:02:38,267	INFO	1	ct25.xtreme.gameserver.GameServer	------------------------------------------------------------------=[ Scripts ]
+2017.12.22 11:02:38,278	INFO	1	ct25.xtreme.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2017.12.22 11:02:38,282	INFO	1	ct25.xtreme.gameserver.instancemanager.GraciaSeedsManager	GraciaSeedsManager: Initializing
+2017.12.22 11:02:38,285	INFO	1	ct25.xtreme.gameserver.instancemanager.GraciaSeedsManager	GraciaSeedsManager: Seed Of Destruction stage = 1
+2017.12.22 11:02:38,285	INFO	1	ct25.xtreme.gameserver.instancemanager.GraciaSeedsManager	GraciaSeedsManager: Seed Of Infinity stage = 1
+2017.12.22 11:02:38,313	INFO	1	ct25.xtreme.gameserver.GameServer	Loading Server Scripts
+2017.12.22 11:03:09,722	INFO	1	ai.zones.ForgeOfTheGods.TarBeetleSpawn	TarBeetleSpawn: Loaded 55 spawn zones.
+2017.12.22 11:03:11,893	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	SelMahumChefs: Loaded 11 chef groups.
+2017.12.22 11:03:12,299	INFO	1	ai.zones.SelMahum.SelMahumTrainingGrounds	SelMahumTrainingGrounds: Loaded 31 training camps.
+2017.12.22 11:03:32,278	CONFIG	1	handlers.MasterHandler	Loading Handlers...
+2017.12.22 11:03:32,288	CONFIG	1	handlers.MasterHandler	Loaded 10  ActionHandlers
+2017.12.22 11:03:32,292	CONFIG	1	handlers.MasterHandler	Loaded 6 ActionShiftHandlers
+2017.12.22 11:03:32,375	CONFIG	1	handlers.MasterHandler	Loaded 471  AdminCommandHandlers
+2017.12.22 11:03:32,414	CONFIG	1	handlers.MasterHandler	Loaded 57  BypassHandlers
+2017.12.22 11:03:32,426	CONFIG	1	handlers.MasterHandler	Loaded 14  ChatHandlers
+2017.12.22 11:03:32,447	CONFIG	1	handlers.MasterHandler	Loaded 33 ItemHandlers
+2017.12.22 11:03:32,504	CONFIG	1	handlers.MasterHandler	Loaded 92 SkillHandlers
+2017.12.22 11:03:32,513	CONFIG	1	handlers.MasterHandler	Loaded 16 UserHandlers
+2017.12.22 11:03:32,518	CONFIG	1	handlers.MasterHandler	Loaded 6 VoicedHandlers
+2017.12.22 11:03:32,519	CONFIG	1	handlers.MasterHandler	Handlers Loaded...
+2017.12.22 11:03:32,918	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Loaded: 47 trust point reward data
+2017.12.22 11:03:32,920	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Mode: levels 0-3
+2017.12.22 11:03:32,921	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Level: 0
+2017.12.22 11:03:32,923	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: Trust: 0
+2017.12.22 11:03:32,925	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	HellboundEngine: State: locked
+2017.12.22 11:03:54,581	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	Next TerritoryWarTime: Sat Dec 16 20:00:00 BRST 2017
+2017.12.22 11:04:37,226	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	[EnhanceYourWeapon] Loaded 54 Soul Crystal data.
+2017.12.22 11:04:37,235	INFO	1	ct25.xtreme.gameserver.model.quest.Quest	[EnhanceYourWeapon] Loaded 240 npc Leveling info data.
+2017.12.22 11:05:42,392	INFO	1	ct25.xtreme.gameserver.GameServer	Compiled Scripts Cache is disabled.
+2017.12.22 11:05:42,394	INFO	1	ct25.xtreme.gameserver.instancemanager.QuestManager	Loaded: 723 quests
+2017.12.22 11:05:42,397	INFO	1	ct25.xtreme.gameserver.instancemanager.TransformationManager	Loaded: 105 transformations.
+2017.12.22 11:05:42,400	INFO	1	ct25.xtreme.gameserver.ItemsAutoDestroy	Initializing ItemsAutoDestroy.
+2017.12.22 11:05:43,095	INFO	1	ct25.xtreme.gameserver.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2017.12.22 11:05:43,186	INFO	1	ct25.xtreme.gameserver.GameServer	AutoChatHandler: Loaded 32 handlers in total.
+2017.12.22 11:05:43,188	INFO	1	ct25.xtreme.gameserver.GameServer	AutoSpawnHandler: Loaded 131 handlers in total.
+2017.12.22 11:05:43,413	INFO	1	ct25.xtreme.gameserver.instancemanager.MailManager	Mail Manager: Successfully loaded 0 messages.
+2017.12.22 11:05:43,428	INFO	1	ct25.xtreme.gameserver.GameServer	IdFactory: Free ObjectID's remaining: 1879000095
+2017.12.22 11:05:43,465	INFO	1	ct25.xtreme.gameserver.model.entity.TvTManager	TvTEventEngine[TvTManager.TvTManager()]: Engine is disabled.
+2017.12.22 11:05:43,469	INFO	1	ct25.xtreme.gameserver.model.entity.event.DMManager	DMEventEngine[DMManager.DMManager()]: Engine is disabled.
+2017.12.22 11:05:43,486	INFO	1	ct25.xtreme.gameserver.model.entity.event.LMManager	LMEventEngine[LMManager.LMManager()]: Engine is disabled.
+2017.12.22 11:05:43,618	INFO	1	ct25.xtreme.gameserver.instancemanager.UndergroundColiseumManager	UndergroundColiseumManager: loaded 5 coliseum arenas
+2017.12.22 11:05:45,667	INFO	1	ct25.xtreme.gameserver.GameServer	GameServer Started, free memory 1673 Mb of 2028 Mb
+2017.12.22 11:05:45,909	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 11:05:46,029	INFO	1	ct25.xtreme.gameserver.network.communityserver.CommunityServerThread	CommunityServerThread: Deactivated by config.
+2017.12.22 11:05:47,024	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 11:05:47,331	INFO	1	ct25.xtreme.gameserver.GameServer	Maximum Numbers of Connected Players: 100
+2017.12.22 11:05:47,353	INFO	1	ct25.xtreme.gameserver.GameServer	Server Loaded in 227 seconds
+2017.12.22 11:05:47,392	INFO	1	ct25.xtreme.gameserver.taskmanager.AutoAnnounceTaskManager	AutoAnnoucements: Loaded 0 Auto Annoucement Data.
+2017.12.22 11:05:47,393	INFO	1	ct25.xtreme.gameserver.GameServer	Telnet server is currently disabled.
+2017.12.22 11:05:52,125	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 11:05:53,129	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 11:05:58,138	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 11:05:59,130	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 11:06:04,138	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 11:06:05,149	WARNING	772	ct25.xtreme.gameserver.LoginServerThread	Disconnected from Login, Trying to reconnect: Connection refused: connect
+2017.12.22 11:06:10,155	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2017.12.22 11:06:12,955	INFO	772	ct25.xtreme.gameserver.LoginServerThread	Registered on login as Server 1 : Bartz
+2017.12.22 11:08:02,221	WARNING	779	ct25.xtreme.gameserver.model.actor.L2Character	Master access level set for character Tchurk! Just a warning to be careful ;)
+2017.12.22 11:08:12,550	WARNING	782	ct25.xtreme.gameserver.datatables.ModsBufferSchemeTable	ModsBufferScheme: Could not load Player: 

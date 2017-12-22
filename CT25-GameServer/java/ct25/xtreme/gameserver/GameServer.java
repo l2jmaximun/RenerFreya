@@ -32,6 +32,7 @@ import org.mmocore.network.SelectorThread;
 import ct25.xtreme.Config;
 import ct25.xtreme.L2DatabaseFactory;
 import ct25.xtreme.Server;
+import ct25.xtreme.extensions.VisualArmorController;
 import ct25.xtreme.gameserver.cache.CrestCache;
 import ct25.xtreme.gameserver.cache.HtmCache;
 import ct25.xtreme.gameserver.datatables.AccessLevels;
@@ -323,6 +324,7 @@ public class GameServer
 		BoatManager.getInstance();
 		AirShipManager.getInstance();
 		GraciaSeedsManager.getInstance();
+		VisualArmorController.load();
 		
 		try
 		{
