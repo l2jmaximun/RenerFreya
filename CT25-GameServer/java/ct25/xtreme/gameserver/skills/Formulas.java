@@ -1564,6 +1564,105 @@ public final class Formulas
 		/*if (shld && !Config.ALT_GAME_SHIELD_BLOCKS)
 		{
 			defence += target.getShldDef();
+}
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.DAGGER && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.DAGGER_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.DAGGER_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.DAGGER_VS_ROBE;
+ }
+ }
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.BOW && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.ARCHER_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.ARCHER_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.ARCHER_VS_ROBE;
+ }
+ }
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.BLUNT && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.BLUNT_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.BLUNT_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.BLUNT_VS_ROBE;
+ }
+ }
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.DUALFIST && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.FIST_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.FIST_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.FIST_VS_ROBE;
+ }
+ }
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.DUAL && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.DUAL_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.DUAL_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.DUAL_VS_ROBE;
+ }
+ }
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.SWORD && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.SWORD_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.SWORD_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.SWORD_VS_ROBE;
+ }
+ }
+
+ if (target instanceof L2PcInstance && weapon != null && weapon.getItemType() == L2WeaponType.POLE && skill != null)
+ {
+ L2Armor armor = ((L2PcInstance) target).getActiveChestArmorItem();
+ if (armor != null)
+ {
+ if (((L2PcInstance) target).isWearingHeavyArmor())
+ damage /= Config.POLE_VS_HEAVY;
+ if (((L2PcInstance) target).isWearingLightArmor())
+ damage /= Config.POLE_VS_LIGHT;
+ if (((L2PcInstance) target).isWearingMagicArmor())
+ damage /= Config.POLE_VS_ROBE;
+ }
+ }
 		}*/
 		//if (!(attacker instanceof L2RaidBossInstance) &&
 		/*

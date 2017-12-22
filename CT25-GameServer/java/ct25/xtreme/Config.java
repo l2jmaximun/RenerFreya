@@ -814,6 +814,30 @@ public final class Config
 	public static boolean L2JMOD_WEDDING_SAMESEX;
 	public static boolean L2JMOD_WEDDING_FORMALWEAR;
 	public static int L2JMOD_WEDDING_DIVORCE_COSTS;
+	
+	 /** Class Balances */
+	 public static float DAGGER_VS_HEAVY;
+	 public static float DAGGER_VS_LIGHT;
+	 public static float DAGGER_VS_ROBE;
+	 public static float ARCHER_VS_HEAVY;
+	 public static float ARCHER_VS_LIGHT;
+	 public static float ARCHER_VS_ROBE;
+	 public static float BLUNT_VS_HEAVY;
+	 public static float BLUNT_VS_LIGHT;
+	 public static float BLUNT_VS_ROBE;
+	 public static float FIST_VS_HEAVY;
+	 public static float FIST_VS_LIGHT;
+	 public static float FIST_VS_ROBE;
+	 public static float DUAL_VS_HEAVY;
+	 public static float DUAL_VS_LIGHT;
+	 public static float DUAL_VS_ROBE;
+	 public static float SWORD_VS_HEAVY;
+	 public static float SWORD_VS_LIGHT;
+	 public static float SWORD_VS_ROBE;
+	 public static float POLE_VS_HEAVY;
+	 public static float POLE_VS_LIGHT;
+	 public static float POLE_VS_ROBE;
+	
 	public static boolean BANKING_SYSTEM_ENABLED;
 	public static int BANKING_SYSTEM_GOLDBARS;
 	public static int BANKING_SYSTEM_ADENA;
@@ -2431,6 +2455,35 @@ public final class Config
 					TVT_EVENT_RUNNING_TIME = Integer.parseInt(L2JModSettings.getProperty("TvTEventRunningTime", "1800"));
 					TVT_EVENT_PARTICIPATION_NPC_ID = Integer.parseInt(L2JModSettings.getProperty("TvTEventParticipationNpcId", "0"));
 					TVT_EVENT_ON_KILL = L2JModSettings.getProperty("TvTEventOnKill", "pmteam");
+					
+					 DAGGER_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("DaggerVsHeavy", "2.50"));
+					 DAGGER_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("DaggerVsHeavy", "2.00"));
+					 DAGGER_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("DaggerVsHeavy", "1.80"));
+					
+					 ARCHER_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("ArcherVsHeavy", "2.50"));
+					 ARCHER_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("ArcherVsHeavy", "2.00"));
+					 ARCHER_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("ArcherVsHeavy", "1.80"));
+					
+					 BLUNT_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("BluntVsHeavy", "2.50"));
+					 BLUNT_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("BluntVsHeavy", "2.00"));
+					 BLUNT_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("BluntVsHeavy", "1.80"));
+					
+					 FIST_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("FistVsHeavy", "2.50"));
+					 FIST_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("FistVsHeavy", "2.00"));
+					 FIST_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("FistVsHeavy", "1.80"));
+					
+					 DUAL_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("DualVsHeavy", "2.50"));
+					 DUAL_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("DualVsHeavy", "2.00"));
+					 DUAL_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("DualVsHeavy", "1.80"));
+					
+					 SWORD_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("SwordVsHeavy", "2.50"));
+					 SWORD_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("SwordVsHeavy", "2.00"));
+					 SWORD_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("SwordVsHeavy", "1.80"));
+					
+					 POLE_VS_HEAVY = Float.parseFloat(L2JModSettings.getProperty("PoleVsHeavy", "2.50"));
+					 POLE_VS_LIGHT = Float.parseFloat(L2JModSettings.getProperty("PoleVsHeavy", "2.00"));
+					 POLE_VS_ROBE = Float.parseFloat(L2JModSettings.getProperty("PoleVsHeavy", "1.80"));
+					
 
 					L2JMOD_ALLOW_WEDDING = Boolean.parseBoolean(L2JModSettings.getProperty("AllowWedding", "False"));
 					L2JMOD_WEDDING_PRICE = Integer.parseInt(L2JModSettings.getProperty("WeddingPrice", "250000000"));
